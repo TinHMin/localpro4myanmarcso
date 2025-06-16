@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strategic Edge Consultancy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #0055a5;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #004080;
+    }
+    section {
+      padding: 40px;
+      background-color: white;
+      margin: 20px auto;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      color: white;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #0055a5;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #004080;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Strategic Edge Consultancy</h1>
+    <p>Insight. Impact. Innovation.</p>
+  </header>
+  
+  <nav>
+    <a href="#org-dev">Organization Development</a>
+    <a href="#mel">Monitoring, Evaluation & Learning</a>
+    <a href="#research">Research</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="org-dev">
+    <h2>Organization Development</h2>
+    <p>We help organizations grow and adapt through customized strategies in structure, culture, leadership, and performance. Our OD experts work alongside your team to design sustainable improvements.</p>
+  </section>
+
+  <section id="mel">
+    <h2>Monitoring, Evaluation & Learning (MEL)</h2>
+    <p>From theory of change to results frameworks and adaptive learning systems, we offer MEL services that turn data into decision-making tools. We specialize in developmental evaluation, impact assessments, and capacity building.</p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>We conduct qualitative, quantitative, and mixed-methods research to inform programs and policy. Our team delivers high-quality evidence for international development, public health, education, and social protection sectors.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Strategic Edge Consultancy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
